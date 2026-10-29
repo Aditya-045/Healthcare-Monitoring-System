@@ -1,0 +1,73 @@
+{
+  "disease": "chronic_kidney_disease",
+  "chosen_model": "ExtraTrees",
+  "numeric_features": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wc",
+    "rc"
+  ],
+  "categorical_features": [
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "target_positive_label": "ckd",
+  "cv_results": {
+    "RandomForest": {
+      "mean_f1": 0.9950617283950617,
+      "std_f1": 0.006048122821686886,
+      "fold_scores": [
+        1.0,
+        0.9876543209876543,
+        0.9876543209876543,
+        1.0,
+        1.0
+      ]
+    },
+    "ExtraTrees": {
+      "mean_f1": 0.9974683544303797,
+      "std_f1": 0.005063291139240489,
+      "fold_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9873417721518988
+      ]
+    },
+    "GradientBoosting": {
+      "mean_f1": 0.9903019485348803,
+      "std_f1": 0.01406118999671221,
+      "fold_scores": [
+        1.0,
+        0.9876543209876543,
+        0.963855421686747,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "test_f1": 1.0,
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_train": 320,
+  "n_test": 80
+}

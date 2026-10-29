@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "num__sg",
+    "importance": 0.1204258393158225
+  },
+  {
+    "feature": "cat__htn_no",
+    "importance": 0.11756315505059974
+  },
+  {
+    "feature": "cat__htn_yes",
+    "importance": 0.08705362257207955
+  },
+  {
+    "feature": "num__pcv",
+    "importance": 0.07715527009356934
+  },
+  {
+    "feature": "num__hemo",
+    "importance": 0.07684034603574882
+  },
+  {
+    "feature": "cat__dm_no",
+    "importance": 0.07563574383551233
+  },
+  {
+    "feature": "cat__dm_yes",
+    "importance": 0.07528040292818693
+  },
+  {
+    "feature": "num__al",
+    "importance": 0.0701185728507054
+  },
+  {
+    "feature": "cat__appet_good",
+    "importance": 0.03127509382096419
+  },
+  {
+    "feature": "cat__pc_normal",
+    "importance": 0.030935105396090488
+  },
+  {
+    "feature": "num__rc",
+    "importance": 0.029833278119770767
+  },
+  {
+    "feature": "cat__pc_abnormal",
+    "importance": 0.028019474528803528
+  },
+  {
+    "feature": "cat__appet_poor",
+    "importance": 0.02698926789640939
+  },
+  {
+    "feature": "num__sc",
+    "importance": 0.019545935806876906
+  },
+  {
+    "feature": "num__bgr",
+    "importance": 0.011964522886691633
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "feature": "num__Alkaline_Phosphotase",
+    "importance": 0.1525078065829252
+  },
+  {
+    "feature": "num__Alamine_Aminotransferase",
+    "importance": 0.1278206104742839
+  },
+  {
+    "feature": "num__Aspartate_Aminotransferase",
+    "importance": 0.12755003303269363
+  },
+  {
+    "feature": "num__Age",
+    "importance": 0.12381660712842497
+  },
+  {
+    "feature": "num__Direct_Bilirubin",
+    "importance": 0.1028363497475196
+  },
+  {
+    "feature": "num__Total_Bilirubin",
+    "importance": 0.10203159130539313
+  },
+  {
+    "feature": "num__Albumin",
+    "importance": 0.08236326270321533
+  },
+  {
+    "feature": "num__Total_Protiens",
+    "importance": 0.08063575025223191
+  },
+  {
+    "feature": "num__Albumin_and_Globulin_Ratio",
+    "importance": 0.07442155002981561
+  },
+  {
+    "feature": "cat__Gender_Male",
+    "importance": 0.01387918986155289
+  },
+  {
+    "feature": "cat__Gender_Female",
+    "importance": 0.012137248881943872
+  }
+]
